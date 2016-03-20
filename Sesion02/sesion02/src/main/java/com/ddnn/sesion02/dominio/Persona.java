@@ -1,0 +1,76 @@
+package com.ddnn.sesion02.dominio;
+
+public class Persona {
+	private int dni;
+	private String nombre;
+	private String apellido;
+	
+	private Fecha fechaNAc;
+	private Ciudad ciudadNac;
+	private Ciudad ciudadRes;
+	
+	public Persona(int dni, String nombre, String apellido, Fecha fechaNAc, Ciudad ciudadNac, Ciudad ciudadRes) {
+		super();
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.fechaNAc = fechaNAc;
+		this.ciudadNac = ciudadNac;
+		this.ciudadRes = ciudadRes;
+	}
+
+	public int getDni() {
+		return dni;
+	}
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public Fecha getFechaNAc() {
+		return fechaNAc;
+	}
+
+	public void setFechaNAc(Fecha fechaNAc) {
+		this.fechaNAc = fechaNAc;
+	}
+
+	public Ciudad getCiudadNac() {
+		return ciudadNac;
+	}
+
+	public void setCiudadNac(Ciudad ciudadNac) {
+		this.ciudadNac = ciudadNac;
+	}
+
+	public Ciudad getCiudadRes() {
+		return ciudadRes;
+	}
+
+	public void setCiudadRes(Ciudad ciudadRes) {
+		this.ciudadRes = ciudadRes;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", fechaNAc=" + fechaNAc
+				+ ", ciudadNac=" + ciudadNac.getNombre() + ", ciudadRes=" + ciudadRes.getNombre() + "]";
+	}
+
+}

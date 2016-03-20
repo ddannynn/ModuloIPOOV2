@@ -1,0 +1,14 @@
+package com.ddnn.sesion02.test;
+
+import com.ddnn.sesion02.dominio.Fecha;
+
+public class Test02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fecha fpedido1 = new Fecha(19, 03, 2016);
+		Fecha fpedido2 = new Fecha(20, 03, 2016);
+
+	}
+
+}
