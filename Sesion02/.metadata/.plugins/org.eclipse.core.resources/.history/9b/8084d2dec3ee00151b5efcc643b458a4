@@ -1,0 +1,28 @@
+package com.ddnn.sesion02.test;
+
+import java.util.Scanner;
+
+import com.ddnn.sesion02.abstractfactory.Automovil;
+import com.ddnn.sesion02.abstractfactory.AutomovilElectricidad;
+import com.ddnn.sesion02.abstractfactory.FabricaVehiculos;
+import com.ddnn.sesion02.abstractfactory.Scooter;
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Automovil a1 = new AutomovilElectricidad(proveedor, nroasientos);
+		//Automovil a2 = new AutomovilElectricidad(proveedor, nroasientos);
+		
+		Scanner r = new Scanner(System.in);
+		FabricaVehiculos fabrica;
+		
+		Automovil[] automoviles = new Automovil[2];
+		Scooter[] scooters = new Scooter[2];
+		
+		System.out.println("Desea comprar vehiculo E()) o G(2)");
+
+	}
+
+}

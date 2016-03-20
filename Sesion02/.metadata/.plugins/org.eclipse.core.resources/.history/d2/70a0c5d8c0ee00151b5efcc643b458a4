@@ -1,0 +1,5 @@
+package com.ddnn.sesion02.abstractfactory;
+
+public class AutomovilGasolina {
+
+}

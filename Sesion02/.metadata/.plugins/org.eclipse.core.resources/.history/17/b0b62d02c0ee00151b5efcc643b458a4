@@ -1,0 +1,17 @@
+package com.ddnn.sesion02.abstractfactory;
+
+public class Scooter {
+	protected String modelo;
+	protected String color;
+	
+	public Scooter(String modelo, String color) {
+		super();
+		this.modelo = modelo;
+		this.color = color;
+	}
+	
+	public abstract void mostrarCaracteristicas() {
+		
+	}
+
+}

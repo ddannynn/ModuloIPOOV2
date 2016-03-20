@@ -1,0 +1,9 @@
+package com.ddnn.sesion02.abstractfactory;
+
+//Definiendo un contrato
+public interface FabricaVehiculos {
+	
+	Automovil crearAutomovil(String proveedor, int nroasientos);
+	Scooter crearScooter(String modelo, String color);
+
+}

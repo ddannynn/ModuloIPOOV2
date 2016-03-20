@@ -1,0 +1,12 @@
+package com.ddnn.sesion02.singleton;
+
+//Patron de Singleton
+public class SoyUnico {
+	
+	//1.
+	private String nombre; //Atributo Instancia
+	private static SoyUnico soyUnico; //Atributo clase
+	
+	
+
+}

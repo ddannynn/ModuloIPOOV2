@@ -1,0 +1,16 @@
+package com.ddnn.sesion02.test;
+
+import com.ddnn.sesion02.abstractfactory.Automovil;
+import com.ddnn.sesion02.abstractfactory.AutomovilElectricidad;
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Automovil a1 = new AutomovilElectricidad(proveedor, nroasientos);
+		//Automovil a2 = new AutomovilElectricidad(proveedor, nroasientos);
+
+	}
+
+}
