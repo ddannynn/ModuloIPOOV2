@@ -1,0 +1,12 @@
+package com.ddnn.sesion02.dominio;
+
+import java.util.List;
+
+public class Pedido {
+	private String nroPedido;
+	private Fecha fechaPedido;
+	
+	//Asociacion -> Composicion
+	private List<LineaPedido> lineasPedido;
+
+}
